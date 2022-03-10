@@ -1,0 +1,55 @@
+.container-episode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-episode {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 50px;
+  background: #000;
+}
+
+.back-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 50px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  background: #000;
+  transition: color 0.4s ease;
+}
+
+.back-button svg {
+  width: 50px;
+  fill: #fff;
+  cursor: pointer;
+  transition: fill 0.4s ease;
+}
+
+.back-button:hover > svg, .back-button:hover  {
+  color: rgb(255, 0, 0);
+  fill: rgb(255, 0, 0);
+}
+
+.description-container {
+  padding: 15px;
+  width: 407px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+}
+
+.description-title {
+  margin-bottom: 20px;
+}
+
+path, svg {
+  pointer-events: none;
+}
+

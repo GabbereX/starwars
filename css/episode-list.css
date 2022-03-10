@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Star Jedi Hollow';
+  src:
+    local('Star Jedi Hollow'),
+    url('../fonts/star-jedi.woff2') format('woff2'),
+    url('../fonts/star-jedi.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+.title {
+  font-family: 'Star Jedi Hollow', sans-serif, Arial, Helvetica;
+  font-size: 200px;
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+}
+
+.episode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.episode-container > a {
+  margin-bottom: 20px;
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  transition: color 0.4s ease;
+}
+
+.episode-container > a:hover {
+  color: red;
+}
+
+.episode-1 {
+  font-size: 20px;
+}
+
+.episode-2 {
+  font-size: 22px;
+}
+
+.episode-3 {
+  font-size: 30px;
+}
+
+.episode-4 {
+  font-size: 35px;
+}
+
+.episode-5 {
+  font-size: 40px;
+}
+
+.episode-6 {
+  font-size: 50px;
+}
