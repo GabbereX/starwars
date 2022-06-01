@@ -5,3 +5,4 @@
 _____
 
 API: [SWAPI.DEV](https://swapi.dev)
+DEMO: [StarWars]([https://swapi.dev](https://gabberex.ru/portfolio/starwars/))
